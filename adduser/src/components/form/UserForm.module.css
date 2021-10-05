@@ -1,0 +1,39 @@
+.formwrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+    box-shadow: 1px 1px 5px 3px rgb(199, 193, 193);
+    width: 40%;
+    align-items: center;
+    border-radius: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+}
+.inputs input{
+    height: 35px;
+    border: 3px groove blueviolet;
+    border-radius: 5px;
+    width: 50%;
+
+}
+.inputs div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs input:hover{
+    background-color: rgb(183, 210, 214);
+    border-color: blue;
+
+}

@@ -1,0 +1,29 @@
+.main_list{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+    
+}
+
+.list{
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 20px;
+    border:rgb(199, 202, 207) solid 3px;
+    box-shadow: grey 3px;
+    width: 50%;
+    list-style-type: none;
+    box-shadow: 1px 1px 10px 3px rgb(166, 171, 172);
+    color:blueviolet;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.list li{
+    margin-top: 20px;
+}
+.list li:hover{
+    background-color: rgb(248, 251, 252);
+}
+a{
+    text-decoration: none;
+}

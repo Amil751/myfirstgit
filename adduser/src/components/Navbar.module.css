@@ -1,0 +1,23 @@
+.main_nav {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+.navbar p{
+  color: white;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.activestyle{
+  border-bottom: 5px solid rgb(253, 253, 253);
+  color: red !important;
+}
+
