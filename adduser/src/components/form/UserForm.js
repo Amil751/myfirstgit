@@ -26,6 +26,7 @@ function UserForm() {
   console.log(user);
   return (
     <form className={classes.formwrapper} onSubmit={submitHandler}>
+      {isLoading&&<p>Loading...</p>}
       <div className={classes.form}>
         <div className={classes.inputs}>
           <div>
